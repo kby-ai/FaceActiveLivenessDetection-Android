@@ -17,28 +17,15 @@
 # FaceActiveLivenessDetection-Android
 
 ## Overview
-This repository showcases real-time `Face Liveness Detection` technology on `Android` device.
+This repository showcases real-time `Face Active Liveness Detection` technology on `Android` device.
+Active face liveness detection is a security measure used in biometric systems to confirm that a live person, rather than a fraudulent representation like a photo or mask, is present during authentication. This method requires users to perform specific actions in real-time, such as blinking, smiling, or turning their head, to demonstrate liveness. By analyzing these prompted movements, the system can effectively distinguish between genuine users and potential spoofing attempts.
 
-> In this repository, we integrated KBY-AI's face liveness(face anti-spoofing) solution into Android platform.
-
-### ◾FaceSDK(Mobile) Details
-
-  | 🔽Basic      |  Standard | Premium |
-  |------------------|------------------|------------------|
-  | <b>Face Detection</b>        | Face Detection    | Face Detection |
-  | <b>Face Liveness Detection</b>        | Face Liveness Detection    | Face Liveness Detection |
-  | <b>Pose Estimation</b>        | Pose Estimation    | Pose Estimation |
-  |         | Face Recognition    | Face Recognition |
-  |         |         | 68 points Face Landmark Detection |
-  |         |         | Face Quality Calculation |
-  |         |         | Face Occlusion Detection |
-  |         |         | Eye Closure Detection |
-  |         |         | Age, Gender Estimation |
+> In this repository, we implemented face active liveness detection by integrating KBY-AI's Face SDK premium package into Android project.
 
 ### ◾FaceSDK(Mobile) Product List
   | No.      | Repository | SDK Details |
   |------------------|------------------|------------------|
-  | ➡️        | <b>[Face Liveness Detection - Android](https://github.com/kby-ai/FaceLivenessDetection-Android)</b>    | <b>Basic SDK</b> |
+  | 1        | [Face Liveness Detection - Android](https://github.com/kby-ai/FaceLivenessDetection-Android)    | Basic SDK |
   | 2        | [Face Liveness Detection - iOS](https://github.com/kby-ai/FaceLivenessDetection-iOS)    | Basic SDK |
   | 3        | [Face Recognition - Android](https://github.com/kby-ai/FaceRecognition-Android)    | Standard SDK |
   | 4        | [Face Recognition - iOS](https://github.com/kby-ai/FaceRecognition-iOS)    | Standard SDK |
@@ -48,6 +35,7 @@ This repository showcases real-time `Face Liveness Detection` technology on `And
   | 8        | [Face Attribute - Android](https://github.com/kby-ai/FaceAttribute-Android)        | Premium SDK |
   | 9        | [Face Attribute - iOS](https://github.com/kby-ai/FaceAttribute-iOS)        | Premium SDK |
   | 10        | [Face Attribute - Flutter](https://github.com/kby-ai/FaceAttribute-Flutter)        | Premium SDK |
+  | ➡️        | <b>[Face Active Liveness Detection - Android](https://github.com/kby-ai/FaceActiveLivenessDetection-Android)</b>        | <b>Premium SDK</b> |
 
 > To get Face SDK(server), please visit products [here](https://github.com/kby-ai/Product).<br/>
 ## Try the APK
