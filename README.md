@@ -53,9 +53,9 @@ You can visit our YouTube video [here](https://www.youtube.com/watch?v=F7c5ZqtbI
 
 ## SDK License
 
-This project uses `KBY-AI`'s liveness detection SDK. The SDK requires a license per `application ID`.
+This repository requires a license per `application ID` to run on `Android`.
 
-- The code below shows how to use the license: https://github.com/kby-ai/FaceLivenessDetection-Android/blob/f81f001b0a2f65330d2adaabc9b001003af9a112/app/src/main/java/com/kbyai/facelivedemo/CameraActivity.java#L69-L77
+- The code below shows how to use the license: https://github.com/kby-ai/FaceActiveLivenessDetection-Android/blob/e97e35acff134dc3286d167735579c6f9f7a6e56/app/src/main/java/com/kbyai/faceattribute/MainActivity.kt#L33-L39
 
 - To request a license, please contact us:</br>
 🧙`Email:` contact@kby-ai.com</br>
