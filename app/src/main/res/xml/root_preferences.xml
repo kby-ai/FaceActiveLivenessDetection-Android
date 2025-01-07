@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:icon="@drawable/ic_faces_angle"
+        app:title = "@string/valid_euler_angles">
+
+        <EditTextPreference
+            android:key="valid_yaw_angle"
+            android:title="@string/yaw"
+            android:summary="-12.0 ~ 12.0"
+            android:defaultValue="12.0"
+            android:inputType="number|numberDecimal"/>
+
+        <EditTextPreference
+            android:key="valid_roll_angle"
+            android:title="@string/roll"
+            android:summary="-12.0 ~ 12.0"
+            android:defaultValue="12.0"
+            android:inputType="number|numberDecimal"/>
+
+        <EditTextPreference
+            android:key="valid_pitch_angle"
+            android:title="@string/pitch"
+            android:summary="-12.0 ~ 12.0"
+            android:defaultValue="12.0"
+            android:inputType="number|numberDecimal"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:icon="@drawable/ic_amount"
+        app:title="@string/range_of_action_amount">
+
+        <EditTextPreference
+            android:key="minimum_range"
+            android:title="Minimum"
+            android:summary="8"
+            android:defaultValue="8"
+            android:inputType="numberDecimal" />
+
+        <EditTextPreference
+            android:key="maximum_range"
+            android:title="@string/maximum"
+            android:summary="10"
+            android:defaultValue="10"
+            android:inputType="numberDecimal" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:icon="@drawable/ic_timeout"
+        app:title="@string/anti_spoof_timeout">
+        <EditTextPreference
+            android:key="liveness_timeout"
+            android:title="@string/timeout"
+            android:summary=""
+            android:defaultValue="5"
+            android:inputType="numberDecimal" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:icon="@drawable/ic_post"
+        app:title="@string/post_process">
+
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:key="post_process_enable"
+            app:summaryOff="Off"
+            app:summaryOn="On"
+            app:title="@string/enable"/>
+
+        <EditTextPreference
+            android:key="address_api"
+            android:title="@string/address_of_api"
+            android:summary=""
+            android:defaultValue="https://xxx.xxx.com/post-process"
+            android:inputType="text" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:icon="@drawable/ic_face_capture"
+        app:title="@string/count_down">
+
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:key="cool_down_enable"
+            app:summaryOff="Off"
+            app:summaryOn="On"
+            app:title="@string/enable"/>
+
+        <EditTextPreference
+            android:key="face_capture_timeout"
+            android:title="@string/timeout"
+            android:summary=""
+            android:defaultValue="5"
+            android:inputType="text" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:icon="@drawable/ic_env"
+        app:title="@string/range_of_environmental">
+
+        <EditTextPreference
+            android:key="minimum_range_luminance"
+            android:title="Minimum"
+            android:summary=""
+            android:defaultValue="80"
+            android:inputType="numberDecimal" />
+
+        <EditTextPreference
+            android:key="maximum_range_luminance"
+            android:title="@string/maximum"
+            android:summary=""
+            android:defaultValue="190"
+            android:inputType="numberDecimal" />
+    </PreferenceCategory>
+</PreferenceScreen>

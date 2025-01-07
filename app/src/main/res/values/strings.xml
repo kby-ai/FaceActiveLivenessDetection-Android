@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">ActiveLiveness</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="camera">Camera</string>
+    <string name="thresholds">Thresholds</string>
+    <string name="reset">Reset</string>
+
+    <!-- Messages Preferences -->
+    <string name="camera_lens">Camera lens</string>
+    <string name="liveness_threshold">Liveness</string>
+    <string name="liveness_level">Liveness Level</string>
+    <string name="identify_threshold">Identify</string>
+    <string name="yaw_threshold">Yaw</string>
+    <string name="roll_threshold">Roll</string>
+    <string name="pitch_threshold">Pitch</string>
+    <string name="occlusion_threshold">Face occlusion</string>
+    <string name="eyeclose_threshold">Eye closed</string>
+    <string name="mouthopen_threshold">Mouth opened</string>
+    <string name="restore_default_settings">Restore default settings</string>
+    <string name="clear_all_person">Clear all person</string>
+
+    <string name="select_picture">Select Picture</string>
+
+    <string name="multiple_face_detected">Multiple face detected!</string>
+    <string name="no_face_detected">No face detected!</string>
+    <string name="person_enrolled">Person enrolled!</string>
+    <string name="liveness_check_failed">Liveness check failed!</string>
+    <string name="restored_default_settings">Restored default settings</string>
+    <string name="cleared_all_person">Cleared all person</string>
+    <string name="invalid_value">Invalid value</string>
+
+    <string name="active_anti_spoof">Active anti-spoof</string>
+    <string name="valid_euler_angles">Valid angles</string>
+
+    <string name="yaw">Yaw</string>
+    <string name="roll">Roll</string>
+    <string name="pitch">Pitch</string>
+    <string name="the_range_of_valid_yaw_angle">Range of valid yaw angle</string>
+    <string name="the_range_of_valid_roll_angle">Range of roll angle</string>
+    <string name="the_range_of_valid_pitch_angle">Range of pitch angle</string>
+    <string name="range_of_action_amount">Range of action amount</string>
+    <string name="minimum_action_amount">Minimum action amount</string>
+    <string name="maximum_action_amount">Maximum action amount</string>
+    <string name="anti_spoof_timeout">Duration of each action</string>
+    <string name="timeout">Timeout</string>
+    <string name="post_process">Post process</string>
+    <string name="face_capture">Face capture</string>
+    <string name="final_output">Final output</string>
+
+    <string name="address_of_api">Address of API</string>
+    <string name="duration_of_countdown">Duration of countdown</string>
+    <string name="enable">Enable</string>
+    <string name="count_down">Face Capture Count down</string>
+    <string name="range_of_environmental">Range of environmental luminance</string>
+
+    <string name="encryption">Encryption</string>
+    <string name="hash_signature">Hash Signature</string>
+    <string name="rsa_key">RSA Key</string>
+
+    <string name="minimum_value_less">Minimum value must be less than maximum value</string>
+    <string name="maximum_value_less">Maximum value must be more than maximum value</string>
+
+    <string name="minimum">Minimum</string>
+    <string name="maximum">Maximum</string>
+
+</resources>
