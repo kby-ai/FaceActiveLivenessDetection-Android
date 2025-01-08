@@ -18,9 +18,9 @@
 
 ## Overview
 This repository showcases real-time `Face Active Liveness Detection` technology on `Android` device.
-Active face liveness detection is a security measure used in biometric systems to confirm that a live person, rather than a fraudulent representation like a photo or mask, is present during authentication. This method requires users to perform specific actions in real-time, such as blinking, smiling, or turning their head, to demonstrate liveness. By analyzing these prompted movements, the system can effectively distinguish between genuine users and potential spoofing attempts.
+`Active face liveness detection` is a security measure used in biometric systems to confirm that a live person, rather than a fraudulent representation like a photo or mask, is present during authentication. This method requires users to perform specific actions in real-time, such as blinking, smiling, or turning their head, to demonstrate liveness. By analyzing these prompted movements, the system can effectively distinguish between genuine users and potential spoofing attempts.
 
-> In this repository, we implemented face active liveness detection by integrating KBY-AI's Face SDK premium package into Android project.
+> In this repository, we implemented face active liveness detection by integrating `KBY-AI`'s `Face SDK` premium package into `Android` project.
 
 ### ◾FaceSDK(Mobile) Product List
   | No.      | Repository | SDK Details |
