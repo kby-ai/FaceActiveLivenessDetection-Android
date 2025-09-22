@@ -61,7 +61,7 @@ This repository requires a license per `application ID` to run on `Android`.
 
 - To request a license, please contact us:</br>
 🧙`Email:` contact@kby-ai.com</br>
-🧙`Telegram:` [@kbyai](https://t.me/kbyai)</br>
+🧙`Telegram:` [@kbyaisupport](https://t.me/kbyaisupport)</br>
 🧙`WhatsApp:` [+19092802609](https://wa.me/+19092802609)</br>
 🧙`Discord:` [KBY-AI](https://discord.gg/CgHtWQ3k9T)</br>
 🧙`Teams:` [KBY-AI](https://teams.live.com/l/invite/FBAYGB1-IlXkuQM3AY)</br>
